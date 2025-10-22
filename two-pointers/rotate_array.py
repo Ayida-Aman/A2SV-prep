@@ -4,9 +4,13 @@ class Solution(object):
     def rotate(self, nums, k):
         n = len(nums)
         k %=n
+
+        # approach one
+
         new_n = n-k
         nums[:]= nums[new_n:n] + nums[0:new_n]
 
+        # approach two using two pointers
         def reverse(start, end):
             while start<end:
                 nums[start], nums[end] = nums[end] , nums[start]
