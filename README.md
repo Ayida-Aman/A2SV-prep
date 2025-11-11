@@ -25,6 +25,5 @@ A2SV empowers African students to reach top tech companies through algorithmic e
 - Language: Mostly Python 
 - Platforms: HackerRank, LeetCode, Codeforces, A2SV problem sets
 
----
 
-📌 Feel free to explore, learn, and grow with me.
+So apparently after tons of two pinters and sliding window problem solving A2SV has cut out the topics to Array, SOrting , Stack and Queue (Q). So we gonna focus on that and i will be using this [sheet] (https://docs.google.com/spreadsheets/d/1wlKZiRJ23dQrZjZgnQaFY7T7vjBL5X7dzUNAK3mwDPQ/edit?gid=135327053#gid=135327053) prepared by A2SV for preping
