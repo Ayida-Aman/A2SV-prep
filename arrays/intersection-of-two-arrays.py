@@ -13,7 +13,7 @@
 #                     result.append(num2)
 #         unique_num = set(result)
 #         return list(unique_num)
-
+    
 #         """
 #         :type nums1: List[int]
 #         :type nums2: List[int]
