@@ -23,4 +23,34 @@ class Solution(object):
         :rtype: int
         """
         
-# 
+# attempt 2 (sorted the array manually which is not very efficient i just want to practice sorting)
+
+class Solution(object):
+    def findContentChildren(self, g, s):
+
+        for i in range (len(g)):
+            j = i
+            while j>0 and g[j] < g[j-1]:
+                g[j-1], g[j] = g[j] , g[j-1]
+                j-=1
+                
+        for i in range (len(s)):
+            j = i
+            while j>0 and s[j] < s[j-1]:
+                s[j-1], s[j] = s[j] , s[j-1]
+                j-=1
+
+        i, j = 0, 0
+        while i<len(g) and j<len(s):
+            if s[j] >= g[i]:
+                i+=1
+            j+=1
+        return i
+
+        """
+        :type g: List[int]
+        :type s: List[int]
+        :rtype: int
+        """
+        
+
