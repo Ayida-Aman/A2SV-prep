@@ -1,5 +1,6 @@
 # problem link: https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/description/
 
+# attempt 1 (usig Q)
 from collections import deque
 class Solution(object):
     def countStudents(self, students, sandwiches):
